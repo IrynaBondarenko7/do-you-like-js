@@ -1,6 +1,39 @@
+body {
+  background-color: #e8daef;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .title {
   font-family: "Alkatra", cursive;
@@ -8,6 +41,36 @@
   font-size: 50px;
   text-align: center;
 }
+.button-wrap {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.btn-agree {
+  margin-left: 20px;
+}
+.button {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border: transparent;
+}
+.btn-agree {
+  background-color: #2ecc71;
+}
 .btn {
-  position: absolute;
+  background-color: #e74c3c;
+}
+.modal-body {
+  margin: 0 auto;
+}
+.modal-text {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
 }
